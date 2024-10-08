@@ -8,5 +8,5 @@
 // console.log(getFullResponseFromAPI(false));
 import handleResponseFromAPI from "./2-then.js";
 
-const promise = Promise.resolve();
+const promise = Promise.reject();
 handleResponseFromAPI(promise);
